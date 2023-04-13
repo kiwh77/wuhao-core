@@ -1,0 +1,44 @@
+{
+  "name": "wuhao-core",
+  "version": "1.0.0",
+  "description": "project bootstrap core",
+  "main": "dist/index.js",
+  "scripts": {
+    "serve": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiwh77/wuhao-core.git"
+  },
+  "keywords": [
+    "engineering",
+    "project core"
+  ],
+  "author": {
+    "name": "wuhao",
+    "email": "kiwh77@126.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiwh77/wuhao-core/issues"
+  },
+  "homepage": "https://github.com/kiwh77/wuhao-core#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "vue": ">=3",
+    "vue-router": ">=4",
+    "wuhao-network": ">=1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.20.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "wuhao-network": "^1.0.0"
+  }
+}

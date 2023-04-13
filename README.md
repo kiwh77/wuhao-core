@@ -1,2 +1,2 @@
 # wuhao-core
-project bootstarp core
+project bootstrap core
